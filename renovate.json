@@ -1,0 +1,14 @@
+{
+  "packageRules": [
+    {
+      "managers": [
+        "terragrunt"
+      ],
+      "additionalBranchPrefix": "{{baseDir}}-",
+      "packagePatterns": [
+        ".*"
+      ],
+      "commitMessageSuffix": "({{baseDir}})"
+    }
+  ]
+}
